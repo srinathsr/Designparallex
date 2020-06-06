@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Design</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+<body>
+	<div class="proto-container">
+		<div class="proto"></div>
+		<div class="proto"></div>
+		<div class="proto"></div>
+		<div class="proto"></div>
+	</div>
+<div class="container">
+	<div class="inner">
+	<div class="left">
+	<img src="/home/srinath/Desktop/design/img/logo.svg" alt="completeUI logo" class="logo">
+<div class="content">
+	<h1>Complete<span>UI Design Course</span></h1>
+	<p>Tirod of producing subpar UI design? CompleteUI is an upcoming course created to help aspiring UI designers create work that's worthy of front-page.</p>
+	<p class="light">CompleteUI is releasing before 2020 on Udemy & Other networks</p>
+</div>
+
+	</div>
+<div class="right">
+	<h3><u><i>Welcome</i></u></h3>
+<p>Get notified when i release the course</p>
+<input type="text" name="email" id="email" placeholder="Your Email">
+<button>Notify Me</button>
+
+<div class="attention">
+	<img src="/home/srinath/Desktop/design/img/me.jpg" alt="avatar" class="me">
+	<img src="/home/srinath/Desktop/design/img/arrow.svg" alt="Arrow pointing to email form" class="arrow">
+</div>
+
+<h1 class="shad">FOLLOW US ON SOCIAL MEDIA</h1>
+<div class="social-media">
+	<a href="#"><i class="fab fa-facebook"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-whatsapp"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+
+
+
+</div>
+</div>
+</div>
+<script>
+	let left =document.querySelector('.left');
+	let content =document.querySelector('.content');
+	let protos =document.querySelector('.proto');
+
+	left.addEventListener('mousemove',(event) => {
+		let move =(event.clientX * 0.05) + 4;
+		let move2 =(event.clientX * 0.1);
+
+		content.style.transform = `translateX(-${move2}%)`;
+	})
+
+
+
+
+
+
+</script>
+</body>
+</html>
